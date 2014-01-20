@@ -1,0 +1,128 @@
+/* Overall Styles */
+/* line 4, sass/main.scss */
+body {
+  background: url(../img/background.jpg) center no-repeat;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* line 9, sass/main.scss */
+h2 {
+  color: #f2d476;
+}
+
+/* Master Container Styles */
+/* line 14, sass/main.scss */
+.master-container {
+  width: 950px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+/* line 21, sass/main.scss */
+.master-header .divider {
+  background: url(../img/header-texture.jpg) repeat-x;
+  height: 10px;
+}
+
+/* line 27, sass/main.scss */
+.master-content {
+  background: #121214 url(../img/content-texture.jpg) repeat-x;
+  min-height: 100px;
+  padding: 50px 38px;
+  color: #8e8e8e;
+  font-size: 14px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 5px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 5px inset;
+  box-shadow: rgba(255, 255, 255, 0.5) 0 1px 5px inset;
+  border-top: 3px #0b0b0b solid;
+}
+
+/* line 37, sass/main.scss */
+.wrapper {
+  min-height: 505px;
+  padding-top: 160px;
+  background: url(../img/logo.png) center top no-repeat;
+}
+
+/* line 43, sass/main.scss */
+.header-btn {
+  width: 97px;
+  height: 30px;
+  background: url(../img/button-bg.png) repeat-x;
+  text-align: center;
+  line-height: 30px;
+  color: #873116;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 20px;
+  position: relative;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 1px;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 0 32px;
+}
+/* line 59, sass/main.scss */
+.header-btn .btn-cap {
+  position: absolute;
+  display: block;
+  top: 0px;
+  width: 20px;
+  height: 30px;
+}
+/* line 66, sass/main.scss */
+.header-btn .btn-cap-left {
+  background: url(../img/button-sprite.png) 0px 0px;
+  left: 0px;
+}
+/* line 70, sass/main.scss */
+.header-btn .btn-cap-right {
+  background: url(../img/button-sprite.png) 0px -30px;
+  right: 0px;
+}
+
+/* line 75, sass/main.scss */
+.header-btn:hover {
+  color: #552010;
+}
+
+/* line 79, sass/main.scss */
+.form-row {
+  width: 390px;
+  padding: 12px 0px;
+}
+
+/* line 83, sass/main.scss */
+.txt-box-large {
+  padding: 5px 16px;
+  width: 260px;
+}
+
+/* line 87, sass/main.scss */
+.form-label {
+  padding: 5px 20px 5px 0;
+}
+
+/* Content Left Styles */
+/* line 92, sass/main.scss */
+.content-left {
+  float: left;
+  width: 60%;
+}
+/* line 95, sass/main.scss */
+.content-left h2 {
+  text-transform: uppercase;
+}
+
+/* content right Styles */
+/* line 101, sass/main.scss */
+.content-right {
+  float: right;
+  width: 40%;
+}
+
+/* Utility Classes */
+/* line 107, sass/main.scss */
+.text-right {
+  text-align: right;
+}

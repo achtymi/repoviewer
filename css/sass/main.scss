@@ -1,0 +1,112 @@
+@import "compass/css3";
+
+/* Overall Styles */
+body{
+	background: url(../img/background.jpg) center no-repeat;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2{
+	color: #f2d476;
+}
+ 
+/* Master Container Styles */
+.master-container {
+  width: 950px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+.master-header{
+	.divider{
+		background: url(../img/header-texture.jpg) repeat-x;
+		height: 10px;
+	}
+}
+
+.master-content{
+	background: #121214 url(../img/content-texture.jpg) repeat-x;
+	min-height: 100px;
+	padding: 50px 38px;
+	color: #8e8e8e;
+	font-size: 14px;
+	@include box-shadow(rgba(#fff, 0.5) 0 1px 5px inset);
+	border-top: 3px #0b0b0b solid
+}
+
+.wrapper{
+	min-height: 505px;
+	padding-top: 160px;
+	background: url(../img/logo.png) center top no-repeat;
+}
+
+.header-btn{
+	width: 97px;
+	height:30px;
+	background: url(../img/button-bg.png) repeat-x;
+	text-align: center;
+	line-height: 30px;
+	color: #873116;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px;
+	position: relative;
+	@include text-shadow(rgba(#fff, 0.5) 0px 1px 1px);
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 0 0 32px;
+	.btn-cap{
+		position: absolute;
+		display: block;
+		top: 0px;
+		width: 20px;
+		height: 30px;
+	}
+	.btn-cap-left{
+		background: url(../img/button-sprite.png) 0px 0px;
+		left: 0px;
+	}
+	.btn-cap-right{
+		background: url(../img/button-sprite.png) 0px -30px;
+		right: 0px;
+	}
+}
+.header-btn:hover{
+	color: #552010;
+}
+
+.form-row{
+	width: 390px;
+	padding: 12px 0px;
+}
+.txt-box-large{
+	padding: 5px 16px;
+	width: 260px;
+}
+.form-label{
+	padding: 5px 20px 5px 0
+}
+
+/* Content Left Styles */
+.content-left{
+	float:left;
+	width: 60%;
+	h2{
+		text-transform: uppercase;
+	}
+}
+
+/* content right Styles */
+.content-right{
+	float: right;
+	width: 40%;
+}
+
+/* Utility Classes */
+.text-right{
+	text-align: right;
+}
+
+
+	
